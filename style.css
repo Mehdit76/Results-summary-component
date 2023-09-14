@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f1f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.ElementsBox{
+    background: #ffffff;
+    height: 410px;
+    width: 550px;
+    border-radius: 25px;
+    display: flex;
+}
+.Result{
+    height: 350px;
+    width: 45%;
+    background: #4435f2;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 30px;
+}
+#Result{
+    font-weight: 400;
+    font-size: 18px;
+}
+.ResultCircle{
+    background: #462bdb;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+h1{
+    font-size: 50px;
+}
+#N100{
+    font-weight: 400;
+    font-size: 15px;
+}
+h2{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.Result p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.summary{
+    padding: 20px;
+    width: 43%;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+}
+.summary h4{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #303b59;
+}
+.Results{
+    align-self: center;
+    width: 100%;
+}
+.elem{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.Number{
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.No100{
+    font-size: 17px;
+    font-weight: 300;
+}
+.text{
+    display: flex;
+}
+.text p{
+    margin-left: 5px;
+}
+.numbers{
+    display: flex;
+    color: #303b59;
+}
+#reaction{
+    color: #B8666C;
+}
+.Reaction{
+    background: #b8666b19;
+}
+#memory{
+    color: #EACD72;
+}
+.Memory{
+    background: #eace7228;
+}
+#verbal{
+    color: #5cbda9;
+}
+.Verbal{
+    background: #5cbda919;
+}
+#visual{
+    color: #3e4480;
+}
+.Visual{
+    background: #3e448019;
+}
+#continue{
+    border-radius: 40px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    background: #303b59;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.attribution {
+    font-size: 11px; text-align: center; 
+    display: none;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+@media (max-width: 500px){
+    .ElementsBox{
+        flex-direction: column;
+        background: #ffffff;
+        height: 100%;
+        width: 100%;
+    }
+    .Result{
+        width: 86%;
+        border-radius: 0 0 50px 50px;
+    }
+    .summary{
+        padding: 20px;
+        width: 91%;
+        height: 400px;
+    }
+    #continue{
+        height: 50px;
+        margin-top: 50px;
+    }
+}
